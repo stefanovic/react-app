@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import DynamicList from '../../components/DynamicList';
 import RecursiveTree from '../../components/RecursiveTree';
-import { FaCode, FaTree, FaLightbulb, FaInfoCircle, FaArrowRight } from 'react-icons/fa';
+import { FaCode, FaTree, FaLightbulb, FaInfoCircle } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css';
 
