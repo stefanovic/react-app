@@ -55,7 +55,7 @@ const Home = () => {
     <div className="container mt-5">
       <Header />
       <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
-        <h1 className="display-4">Welcome to the Creative World of React!</h1>
+        <h1 className="display-4">Benvenuti nel mondo creativo di React!</h1>
         <p className="lead">Build awesome web applications with React and unleash your creativity.</p>
       </div>
       <div className="row mb-4">
