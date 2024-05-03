@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -52,11 +53,15 @@ header {
   padding: 10px 0;
 }
 
-
-
 .logo img {
   width: 100px; /* Regola la larghezza del logo */
   height: auto; /* Mantiene l'aspetto proporzionato */
+}
+
+a {
+	color: #ffcc00;
+	text-decoration: underline;
+	font-weight: 500;
 }
 
 nav {
