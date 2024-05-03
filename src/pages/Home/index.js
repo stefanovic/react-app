@@ -55,8 +55,8 @@ const Home = () => {
     <div className="container mt-5">
       <Header />
       <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
-        <h1 className="display-4">Benvenuti nel mondo creativo di React!</h1>
-        <p className="lead">Crea fantastiche applicazioni web con React e libera la tua creatività.</p>
+        <h1 className="display-4">Livedata e il mondo creativo di React!</h1>
+        <p className="lead">Vieni a trovarci su <a href="https://livedata.it">Livedata</a> e scopri come creare incredibili applicazioni web utilizzando React! Libera la tua creatività e realizza progetti straordinari.</p>
       </div>
       <div className="row mb-4">
         <div className="col-md-6">
@@ -70,7 +70,7 @@ const Home = () => {
         <div className="col-md-6">
           <div className="card shadow-sm">
             <div className="card-body">
-              <h2 className="card-title mb-3"><FaTree className="mr-2" /> Concept Tree</h2>
+              <h2 className="card-title mb-3"><FaTree className="mr-2" /> Mappa Concettuale</h2>
               <RecursiveTree data={recursiveTreeData} />
             </div>
           </div>
