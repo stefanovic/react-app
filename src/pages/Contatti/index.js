@@ -34,7 +34,7 @@ const Contact = () => {
     <div className="container mt-5">
       <Header />
       <div id="topBanner" className="jumbotron bg-secondary text-light rounded mb-4">
-        <h1 className="display-4">Contattaci</h1>
+        <h1 className="display-4">Contattaci - Demo</h1>
         <p className="lead">Siamo qui per rispondere alle tue domande. Compila il modulo sottostante per metterti in contatto con noi.</p>
       </div>
       <div className="row mb-4">
