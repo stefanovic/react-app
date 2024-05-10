@@ -18,7 +18,7 @@ const Header = () => {
                 <Link to="/about" className="text-light text-decoration-none">About</Link>
               </li>
               <li className="list-inline-item mx-2">
-                <Link to="/contatti" className="text-light text-decoration-none">Contatti</Link>
+                <Link to="/contatti" className="text-light text-decoration-none">Contacts</Link>
               </li>
             </ul>
         </nav>

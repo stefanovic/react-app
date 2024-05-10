@@ -55,14 +55,14 @@ const Home = () => {
     <div className="container mt-5">
       <Header />
       <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
-        <h1 className="display-4">Livedata e il mondo creativo di React!</h1>
-        <p className="lead">Vieni a trovarci su <a href="https://livedata.it">Livedata</a> e scopri come creare incredibili applicazioni web utilizzando React! Libera la tua creatività e realizza progetti straordinari.</p>
+        <h1 className="display-4">Livedata and the creative world of React!</h1>
+        <p className="lead">Come and visit us on <a href="https://livedata.it">Livedata</a> and discover how to create amazing web applications using React! Unleash your creativity and create extraordinary projects.</p>
       </div>
       <div className="row mb-4">
         <div className="col-md-6">
           <div className="card shadow-sm">
             <div className="card-body">
-            <h2 className="card-title mb-3"><FaCode className="mr-2" /> Concetti chiave</h2>
+            <h2 className="card-title mb-3"><FaCode className="mr-2" /> Key concepts</h2>
               <DynamicList items={dynamicListItems} />
             </div>
           </div>
@@ -70,14 +70,14 @@ const Home = () => {
         <div className="col-md-6">
           <div className="card shadow-sm">
             <div className="card-body">
-              <h2 className="card-title mb-3"><FaTree className="mr-2" /> Mappa Concettuale</h2>
+              <h2 className="card-title mb-3"><FaTree className="mr-2" /> Treemap</h2>
               <RecursiveTree data={recursiveTreeData} />
             </div>
           </div>
         </div>
       </div>
       <div className="mt-5 text-center">
-        <h2 className="mb-4"><FaLightbulb className="mr-2" /> Ispirazione visiva</h2>
+        <h2 className="mb-4"><FaLightbulb className="mr-2" /> Visual inspiration</h2>
         <img src={unsplashImageUrl} alt="Random Unsplash" className="img-fluid rounded" />
       </div>
       <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
