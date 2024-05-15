@@ -83,7 +83,8 @@ const Home = () => {
       </div>
       <div className="mt-5 text-center">
         <h2 className="mb-4"><FaLightbulb className="mr-2" /> Visual inspiration</h2>
-        <img src={unsplashImageUrl} alt="Random Unsplash" className="img-fluid rounded" />
+        <p><a aria-label="Unsplash Image API" href="https://unsplash.com/developers">Unsplash Image API</a></p>
+        <img src={unsplashImageUrl} alt="Random Unsplash Image" className="img-fluid rounded" />
       </div>
       <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
         <p> &copy; 2024 Livedata React App on <a href="https://github.com/stefanovic/react-app">GitHub</a></p>
