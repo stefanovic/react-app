@@ -70,11 +70,22 @@ const Contact = () => {
         <p className="lead">We are here to answer your questions.</p>
       </div>
 
-      <h2 className="display-0">Introducing InteractiveTermDisplay Component</h2>
+      <h2 className="display-0">Introducing InteractiveTermDisplay React component</h2>
         <p className="lead">Are you looking for an engaging and interactive way to showcase a collection of terms or concepts links on your website? Look no further! 
-        With the new "InteractiveTermDisplay" component, you can effortlessly add a dynamic and visually appealing term display to your React application.</p>
+        With the new "InteractiveTermDisplay" component, you can effortlessly add a dynamic and visually appealing term display to your React application.       
+        </p>
 
+        <h2>Key Features:</h2>
 
+<ul>
+    <li><span>🚀</span> Smooth Transitions: Enjoy fluid transitions between terms, enhancing the user experience without compromising performance.</li>
+    <li><span>🎨</span> Customizable Design: Tailor the appearance of the display to match your website's style with customizable transition speeds and a range of vibrant color options.</li>
+    <li><span>💡</span> Interactive Experience: Engage your audience with interactive features that allow users to pause and resume animations with ease, adding depth to your content presentation.</li>
+    <li><span>🔍</span> Accessibility: Ensure inclusivity with keyboard navigation and screen reader compatibility, making your content accessible to all users.</li>
+</ul>
+
+<br>
+</br>
       <div className="row mb-4">
         <div className="col-md-6 mb-2">
           <div className="d-flex mb-3">
@@ -113,7 +124,7 @@ const Contact = () => {
         </div>
       </div>
       <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
-        <p> &copy; 2024 My React App on <a href="https://github.com/stefanovic/react-app">GitHub</a>. All rights reserved.</p>
+        <p> &copy; 2024 Livedata React App on <a href="https://github.com/stefanovic/react-app">GitHub</a></p>
       </footer>
     </div>
   );

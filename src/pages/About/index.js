@@ -88,7 +88,7 @@ const About = () => {
          <img src={unsplashImageUrl} alt="Unsplash Random Image" className="img-fluid rounded" />
        </div>
        <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
-        <p> &copy; 2024 My React App on <a href="https://github.com/stefanovic/react-app">GitHub</a>. All rights reserved.</p>
+        <p> &copy; 2024 Livedata React App on <a href="https://github.com/stefanovic/react-app">GitHub</a></p>
       </footer>
     </div>
   );
