@@ -81,7 +81,7 @@ const Contact = () => {
     <li><span>🚀</span> Smooth Transitions: Enjoy fluid transitions between terms, enhancing the user experience without compromising performance.</li>
     <li><span>🎨</span> Customizable Design: Tailor the appearance of the display to match your website's style with customizable transition speeds and a range of vibrant color options.</li>
     <li><span>💡</span> Interactive Experience: Engage your audience with interactive features that allow users to pause and resume animations with ease, adding depth to your content presentation.</li>
-    <li><span>🔍</span> Accessibility: Ensure inclusivity with keyboard navigation and screen reader compatibility, making your content accessible to all users.</li>
+  
 </ul>
 
 <br>
