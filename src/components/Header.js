@@ -8,7 +8,9 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <img src={Logo} alt="Logo" />
+          
         </div>
+
         <nav>
         <ul className="list-inline mb-0">
               <li className="list-inline-item mx-2">
@@ -23,6 +25,7 @@ const Header = () => {
             </ul>
         </nav>
       </div>
+    
     </header>
   );
 };

@@ -55,8 +55,13 @@ const Home = () => {
     <div className="container mt-5">
       <Header />
       <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
+
+     
         <h1 className="display-4">Livedata and the creative world of React!</h1>
+        
         <p className="lead">Come and visit us on <a href="https://livedata.it">Livedata</a> and discover how to create amazing web applications using React! Unleash your creativity and create extraordinary projects.</p>
+      
+        
       </div>
       <div className="row mb-4">
         <div className="col-md-6">

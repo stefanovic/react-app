@@ -6,29 +6,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Contact = () => {
   const termSets = [
     [
-      { term: 'Api-first', color: '#FF5733', link: 'https://webstack.livedata.it/api/' },
-      { term: 'RESTful APIs', color: 'green', link: 'https://en.wikipedia.org/wiki/REST' },
-      { term: 'GraphQL', color: 'crimson', link: 'https://webstack.livedata.it/api/graphql/' },
+      { term: 'Api-first', color: '#FF5733', link: 'https://example.com/api-first' },
+      { term: 'RESTful APIs', color: 'green', link: 'https://example.com/restful-apis' },
+      { term: 'GraphQL', color: 'crimson', link: 'https://example.com/graphql' },
     ],
     [
-      { term: 'Jamstack', color: 'blueviolet', link: 'https://jamstack.org/' },
-      { term: 'Serverless', color: 'aquamarine', link: 'https://www.netlify.com/blog/intro-to-serverless-functions/' },
-      { term: 'Static Site Generation', color: '#FFC300', link: 'https://webstack.livedata.it/blog/astro-build/' },
+      { term: 'Jamstack', color: 'blueviolet', link: 'https://example.com/jamstack' },
+      { term: 'Serverless', color: 'aquamarine', link: 'https://example.com/serverless' },
+      { term: 'Static Site Generation', color: '#FFC300', link: 'https://example.com/static-site-generation' },
     ],
     [
-      { term: 'JavaScript', color: 'magenta', link: 'https://developer.mozilla.org/en-US/docs/Web/javascript' },
-      { term: 'TypeScript', color: 'goldenrod', link: 'https://www.typescriptlang.org' },
-      { term: 'React', color: 'lavender', link: 'https://it.legacy.reactjs.org' },
+      { term: 'JavaScript', color: 'magenta', link: 'https://example.com/javascript' },
+      { term: 'TypeScript', color: 'goldenrod', link: 'https://example.com/typescript' },
+      { term: 'React', color: 'lavender', link: 'https://example.com/react' },
     ],
     [
-      { term: 'PHP', color: '#FF5733', link: 'https://it.wikipedia.org/wiki/PHP' },
-      { term: 'Codeigniter', color: '#FFC300', link: 'https://codeigniter.com/' },
-      { term: 'ProcessWire', color: '#DAF7A6', link: 'https://webstack.livedata.it/blog/processwire-flessibilita-creativita-velocita/' },
+      { term: 'PHP', color: '#FF5733', link: 'https://example.com/php' },
+      { term: 'Laravel', color: '#FFC300', link: 'https://example.com/laravel' },
+      { term: 'Symfony', color: '#DAF7A6', link: 'https://example.com/symfony' },
     ],
     [
-      { term: 'SEO', color: 'cyan', link: 'https://it.wikipedia.org/wiki/Ottimizzazione_per_i_motori_di_ricerca' },
-      { term: 'Core Web Vitals', color: 'orange', link: 'https://webstack.livedata.it/blog/core-web-vitals-approcci-allo-sviluppo-web/' },
-      { term: 'Ricerca Vocale', color: 'teal', link: 'https://webstack.livedata.it/blog/ottimizzazione-della-ricerca-vocale-il-futuro-del-seo/' },
+      { term: 'Python', color: 'cyan', link: 'https://example.com/python' },
+      { term: 'Django', color: 'orange', link: 'https://example.com/django' },
+      { term: 'Flask', color: 'teal', link: 'https://example.com/flask' },
     ],
   ];
 
@@ -67,14 +67,8 @@ const Contact = () => {
       <Header />
       <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
         <h1 className="display-4">Contact us</h1>
-        <p className="lead">We are here to answer your questions.</p>
+        <p className="lead">We are here to answer your questions. Fill out the form below to get in touch with us. (Form not active)</p>
       </div>
-
-      <h2 className="display-0">Introducing InteractiveTermDisplay Component</h2>
-        <p className="lead">Are you looking for an engaging and interactive way to showcase a collection of terms or concepts links on your website? Look no further! 
-        With the new "InteractiveTermDisplay" component, you can effortlessly add a dynamic and visually appealing term display to your React application.</p>
-
-
       <div className="row mb-4">
         <div className="col-md-6 mb-2">
           <div className="d-flex mb-3">
@@ -113,7 +107,7 @@ const Contact = () => {
         </div>
       </div>
       <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
-        <p> &copy; 2024 My React App on <a href="https://github.com/stefanovic/react-app">GitHub</a>. All rights reserved.</p>
+        <p>&copy; 2024 livedata.it</p>
       </footer>
     </div>
   );

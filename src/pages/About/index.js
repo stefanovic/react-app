@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Header from '../../components/Header';
-import { FaLightbulb, FaLink, FaInfoCircle } from 'react-icons/fa';
+import { FaLightbulb, FaLink, FaInfoCircle, FaPushed, FaPlus, FaServer, FaCode, FaAtom, FaEllipsisH, FaLaptopCode, FaCentercode, FaRegArrowAltCircleRight } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const getRandomUnsplashUrl = (width, height, keywords) => {
@@ -28,7 +28,7 @@ const About = () => {
          <div className="col-md-6">
            <div className="card shadow-sm">
              <div className="card-body">
-               <h2 className="card-title mb-3"><FaLightbulb className="mr-2" /> Basic Web Technologies</h2>
+               <h2 className="card-title mb-3"><FaRegArrowAltCircleRight className="mr-2" /> Basic Web Technologies</h2>
                <p>
                  Our development stack revolves around core web technologies, ensuring compatibility
                  and adherence to web standards. HTML, CSS and JavaScript are the fundamental building blocks
@@ -40,7 +40,7 @@ const About = () => {
          <div className="col-md-6">
            <div className="card shadow-sm">
              <div className="card-body">
-               <h2 className="card-title mb-3"><FaLink className="mr-2" /> Frontend Framework</h2>
+               <h2 className="card-title mb-3"><FaLaptopCode className="mr-2" /> Frontend Framework</h2>
                <p>
                  We leverage modern frontend frameworks like React and Vue.js to create interactive interfaces
                  and user-friendly. These frameworks allow us to develop robust and scalable applications
@@ -54,7 +54,7 @@ const About = () => {
          <div className="col-md-6">
            <div className="card shadow-sm">
              <div className="card-body">
-               <h2 className="card-title mb-3"><FaInfoCircle className="mr-2" /> Flexible Backend</h2>
+               <h2 className="card-title mb-3"><FaEllipsisH className="mr-2" /> Flexible Backend</h2>
                <p>
                  Our backend development is based on flexible technologies such as ProcessWire and CodeIgniter.
                  ProcessWire provides us with a powerful and adaptable content management system, while CodeIgniter
@@ -66,7 +66,7 @@ const About = () => {
          <div className="col-md-6">
            <div className="card shadow-sm">
              <div className="card-body">
-               <h2 className="card-title mb-3"><FaLink className="mr-2" /> JSON integration</h2>
+               <h2 className="card-title mb-3"><FaCode className="mr-2" /> JSON integration</h2>
                <p>
                  We effortlessly integrate JSON (JavaScript Object Notation) into our projects, facilitating an exchange
                  fluid data between the front end and the back end. This flexible data format enables communication
@@ -77,19 +77,18 @@ const About = () => {
          </div>
        </div>
        <div className="mt-5 text-center">
-         <h2 className="mb-4"><FaLightbulb className="mr-2" /> Platforms and Distributions</h2>
+         <h2 className="mb-4"><FaServer className="mr-2" /> Platforms and Distributions</h2>
          <p>
-           Our commitment to staying ahead of the curve is reflected in our use of advanced platforms like Vercel
-           and Netlify for seamless deployment. We manage our projects collaboratively
+           Our commitment to staying ahead of the curve is reflected in our use of advanced platforms like Vercel, Netlify, DigitalOcean and Aruba Business for seamless deployment. We can manage our projects collaboratively
            on Github, ensuring version control and efficient team collaboration.
          </p>
        </div>
        <div className="mt-5 text-center">
          <h2 className="mb-4"><FaLightbulb className="mr-2" /> Visual Inspiration</h2>
-         <img src={unsplashImageUrl} alt="Random Unsplash" className="img-fluid rounded" />
+         <img src={unsplashImageUrl} alt="Unsplash Random Image" className="img-fluid rounded" />
        </div>
        <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
-         <p><FaInfoCircle className="mr-2" /> &copy; 2024 Our Web Development Team. All rights reserved.</p>
+        <p> &copy; 2024 My React App on <a href="https://github.com/stefanovic/react-app">GitHub</a>. All rights reserved.</p>
       </footer>
     </div>
   );
