@@ -17,10 +17,10 @@ const About = () => {
   return (
     <div className="container mt-5">
       <Header />
-      <div id="topBanner" className="jumbotron bg-secondary text-light rounded mb-4">
+      <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
          <h1 className="display-4">Meet Our Web Development Team</h1>
          <p className="lead">
-           We are a dynamic team of web developers who embrace a flexible approach to development.
+           We are a dynamic team of web developers who embrace a flexible approach to development.<br></br>
            Explore the technologies and platforms we love working with!
          </p>
        </div>
