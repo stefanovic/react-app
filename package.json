@@ -15,6 +15,7 @@
     "@visx/shape": "^3.5.0",
     "@visx/text": "^3.3.0",
     "@visx/wordcloud": "^3.3.0",
+    "axios": "^1.7.2",
     "bootstrap": "^5.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

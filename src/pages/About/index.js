@@ -66,7 +66,7 @@ const About = () => {
          <div className="col-md-6">
            <div className="card shadow-sm">
              <div className="card-body">
-               <h2 className="card-title mb-3"><FaCode className="mr-2" /> JSON integration</h2>
+               <h2 className="card-title mb-3"><FaCode className="mr-2" /> JSON Integration</h2>
                <p>
                  We effortlessly integrate JSON (JavaScript Object Notation) into our projects, facilitating an exchange
                  fluid data between the front end and the back end. This flexible data format enables communication
