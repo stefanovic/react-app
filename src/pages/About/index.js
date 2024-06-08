@@ -1,18 +1,42 @@
 // src/pages/About/index.js
 
-import React from 'react';
+//import React from 'react';
 import Header from '../../components/Header';
 import { FaLightbulb, FaLink, FaInfoCircle, FaPushed, FaPlus, FaServer, FaCode, FaAtom, FaEllipsisH, FaLaptopCode, FaCentercode, FaRegArrowAltCircleRight } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const getRandomUnsplashUrl = (width, height, keywords) => {
-  const accessKey = 'Zs8m0TJxuIRb3kEnEL9poggcCxabKkPboU9lpjyR4Qo';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+const getUnsplashImageUrl = async () => {
+  const accessKey = 'Zs8m0TJxuIRb3kEnEL9poggcCxabKkPboU9lpjyR4Qo';  // Replace with your actual Unsplash API access key
+  const keywords = ['creative', 'technology', 'abstract'];
   const randomKeyword = keywords[Math.floor(Math.random() * keywords.length)];
-  return `https://source.unsplash.com/${width}x${height}/?${randomKeyword}&client_id=${accessKey}`;
+  const url = `https://api.unsplash.com/photos/random?query=${randomKeyword}&client_id=${accessKey}`;
+
+  try {
+    const response = await axios.get(url);
+    return `${response.data.urls.raw}&w=1200&h=600&fit=crop`;
+  } catch (error) {
+    console.error('Error fetching image from Unsplash', error);
+    return null;
+  }
 };
 
 const About = () => {
-  const unsplashImageUrl = getRandomUnsplashUrl(1200, 600, ['creative', 'technology', 'abstract']);
+  
+  //const unsplashImageUrl = getRandomUnsplashUrl(1200, 600, ['creative', 'technology', 'abstract']);
+
+  const [imageUrl, setImageUrl] = useState('');
+
+  useEffect(() => {
+    const fetchImage = async () => {
+      const url = await getUnsplashImageUrl();
+      setImageUrl(url);
+    };
+
+    fetchImage();
+  }, []);
 
   return (
     <div className="container mt-5">
@@ -85,7 +109,13 @@ const About = () => {
        </div>
        <div className="mt-5 text-center">
          <h2 className="mb-4"><FaLightbulb className="mr-2" /> Visual Inspiration</h2>
-         <img src={unsplashImageUrl} alt="Unsplash Random Image" className="img-fluid rounded" />
+
+         {imageUrl ? (
+        <img src={imageUrl} alt="Random from Unsplash" className="img-fluid rounded" />
+      ) : (
+        <p>Loading image...</p>
+      )}
+
        </div>
        <footer className="mt-5 py-3 text-center bg-dark text-light rounded">
         <p> &copy; 2024 Livedata React App on <a href="https://github.com/stefanovic/react-app">GitHub</a></p>
