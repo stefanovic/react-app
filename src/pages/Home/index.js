@@ -91,7 +91,7 @@ const Home = () => {
       <div id="topBanner" className="jumbotron bg-primary text-light rounded mb-4">
 
      
-        <h1 className="display-4">Livedata and the creative world of React!</h1>
+        <h1 className="display-4">Livedata and the creative world of React and Git Workflow!</h1>
         
         <p className="lead">Come and visit us on <a href="https://livedata.it">Livedata</a>, unleash your creativity and create extraordinary projects.</p>
       
